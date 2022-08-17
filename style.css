@@ -5,8 +5,11 @@ body{
 h1{
     font-size: 40px;
 }
+h2{
+    font-size: 30px;
+}
 span{
-    color: darkcyan;
+    color: rgb(255, 153, 37);
 }
 .flexible-conteiner{
     display: flex;
@@ -39,4 +42,18 @@ span{
     background-image: url(image/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.lower-section{
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.box-shadow{
+    height: 300px;
+    width: 80%;
+    margin-left: 6%;
+    margin-right: 4%;
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-shadow: grey 10px 10px 40px;
 }
