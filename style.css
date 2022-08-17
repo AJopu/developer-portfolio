@@ -57,3 +57,16 @@ span{
     border-radius: 10px;
     box-shadow: grey 10px 10px 40px;
 }
+#baby-web-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(16, 116, 197),rgb(9, 189, 189));
+    border-image-slice: 1;
+}
+#full-stack-web-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(16, 116, 197),rgb(12, 190, 190));
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+}
